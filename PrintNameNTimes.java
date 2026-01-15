@@ -2,6 +2,8 @@ package DSA_Que;
 
 import java.util.Scanner;
 
+// This is belongs to the recursion basics just to understand that how the recursion works
+
 public class PrintNameNTimes {
     void print(int i, int n){
         if (i>n){
