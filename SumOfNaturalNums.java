@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SumOfNaturalNums {
 
+    // Using parameterised recursion
     void sums(int i, int sum) {
         if (i < 1) {
             System.out.println(sum);
