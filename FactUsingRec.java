@@ -1,7 +1,7 @@
 package DSA_Que;
 
 public class FactUsingRec {
-
+               //Factorial using recursion...
     static int fact(int n){
         if (n == 1){
             return 1;
