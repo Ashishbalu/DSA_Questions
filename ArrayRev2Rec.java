@@ -3,6 +3,9 @@ package DSA_Que;
 import java.util.Scanner;
 
 public class ArrayRev2Rec {
+
+    // reversed array using recursion with single pointer..
+
     static void rev(int[] arr, int i, int n){
         if (i>= n/2){
             return;
