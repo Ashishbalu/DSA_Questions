@@ -1,7 +1,7 @@
 package DSA_Que;
 
-public class PallindromeUsingRec {
-    static boolean pallindrome(int i, String s){
+public class PalindromeUsingRec {
+    static boolean palindrome(int i, String s){
         int n = s.length();
         if (i>=n/2){
             return true;
@@ -9,7 +9,7 @@ public class PallindromeUsingRec {
         if (s.charAt(i) != s.charAt(n-i-1)){
             return false;
         }
-        return pallindrome(i+1, s);
+        return palindrome(i+1, s);
     }
 
     public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class PallindromeUsingRec {
 
         //normalize for case-insensitive check
         s = s.toLowerCase();
-        System.out.println(pallindrome(0, s));
+        System.out.println(palindrome(0, s));
     }
 }
