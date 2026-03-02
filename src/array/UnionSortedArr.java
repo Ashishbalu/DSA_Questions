@@ -26,12 +26,24 @@ public class UnionSortedArr {
             } else {
                 if (unionArr.isEmpty() || unionArr.get(unionArr.size() - 1) != arr1[i])
                     unionArr.add(arr1[i]);
-                i++; j++;
+                i++;
+                j++;
             }
-
+        }
+        while (i < n1) {
+            if (unionArr.isEmpty() || unionArr.get(unionArr.size() - 1) != arr1[i]) {
+                unionArr.add(arr1[i]);
+            }
+            i++;
+        }
+        while (j < n2) {
+            if (unionArr.isEmpty() || unionArr.get(unionArr.size() - 1) != arr2[j]) {
+                unionArr.add(arr2[j]);
+            }
+            j++;
         }
         // remaining element are should be added....------------------>>>>>>>
-        for (int x : unionArr){
+        for (int x : unionArr) {
             System.out.println(x);
         }
 
