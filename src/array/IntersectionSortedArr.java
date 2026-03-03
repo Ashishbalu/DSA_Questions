@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntersectionSortedArr {
+
+    // this is the brute force approach
+
     public static void main(String[] args) {
         int[] a1 = {1, 2, 2, 3, 5, 6};
         int[] a2 = {2, 2, 3, 3, 4, 5, 6, 6, 7};

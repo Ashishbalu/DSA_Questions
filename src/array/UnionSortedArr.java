@@ -30,6 +30,7 @@ public class UnionSortedArr {
                 j++;
             }
         }
+        // remaining element are should be added....------------------>>>>>>>
         while (i < n1) {
             if (unionArr.isEmpty() || unionArr.get(unionArr.size() - 1) != arr1[i]) {
                 unionArr.add(arr1[i]);
@@ -42,7 +43,6 @@ public class UnionSortedArr {
             }
             j++;
         }
-        // remaining element are should be added....------------------>>>>>>>
         for (int x : unionArr) {
             System.out.println(x);
         }
