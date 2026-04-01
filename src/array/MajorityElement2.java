@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class MajorityElement2 {
 
+    // this is better approach for this
     public static int majorityElement(int[] nums){
         int n = nums.length;
 
