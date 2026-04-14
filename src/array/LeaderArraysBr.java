@@ -1,6 +1,6 @@
 package array;
 
-public class LeaderArrays {
+public class LeaderArraysBr {
     // in this algorithm, have to find out the leader elements means everything on the right should be smallest
     // this is a brute force approach
     //TC --> O(n*n) n square
